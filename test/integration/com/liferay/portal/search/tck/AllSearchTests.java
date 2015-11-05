@@ -29,7 +29,8 @@ import org.junit.runners.Suite.SuiteClasses;
 	com.liferay.portlet.blogs.search.BlogsEntrySearchTest.class,
 	com.liferay.portlet.documentlibrary.search.DLFolderSearchTest.class,
 	com.liferay.portlet.messageboards.search.MBMessageSearchTest.class,
-	com.liferay.portlet.usersadmin.util.UserIndexerTest.class
+	com.liferay.portlet.usersadmin.util.UserIndexerTest.class,
+	com.liferay.portal.search.FacetedSearchTest.class
 })
 public class AllSearchTests {
 
