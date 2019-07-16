@@ -24,7 +24,6 @@ test_run portal-search/portal-search-test \
 
 test_run document-library/document-library-test \
 	*.search.*Test \
-	com.liferay.document.library.trash.test.DLFileEntryTrashHandlerTest \
 	com.liferay.document.library.trash.test.DLFolderTrashHandlerTest 
 
 test_run calendar/calendar-test \
@@ -84,8 +83,8 @@ test_run user-groups-admin/user-groups-admin-test \
 test_run asset/asset-publisher-test \
 	com.liferay.asset.publisher.lar.test.AssetPublisherExportImportTest
 
-test_run portal-workflow/portal-workflow-kaleo-test \
-	com.liferay.portal.workflow.kaleo.runtime.integration.internal.test.WorkflowTaskManagerImplTest
+# test_run portal-workflow/portal-workflow-kaleo-test \
+# 	com.liferay.portal.workflow.kaleo.runtime.integration.internal.test.WorkflowTaskManagerImplTest
 
 test_run layout/layout-test \
 	*.search.*Test
