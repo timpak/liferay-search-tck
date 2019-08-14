@@ -42,7 +42,6 @@ test_run asset/asset-categories-test \
 	*.search.*Test 
 
 test_run_journal \
-	*.search.*Test \
 	com.liferay.journal.asset.test.JournalArticleAssetSearchTest \
 	com.liferay.journal.service.test.JournalArticleExpirationTest \
 	com.liferay.journal.service.test.JournalArticleIndexVersionsTest \
