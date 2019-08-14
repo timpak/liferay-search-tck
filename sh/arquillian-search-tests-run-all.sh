@@ -49,9 +49,6 @@ test_run_journal \
 	com.liferay.journal.trash.test.JournalArticleTrashHandlerTest \
 	com.liferay.journal.trash.test.JournalFolderTrashHandlerTest
 
-test_run sharing/sharing-search-test \
-	*Test
-
 # All other tests using Search in some capacity
 
 test_run blogs/blogs-test \
