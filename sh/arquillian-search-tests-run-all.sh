@@ -81,8 +81,8 @@ test_run dynamic-data-lists/dynamic-data-lists-test \
 test_run user-groups-admin/user-groups-admin-test \
 	*.search.*Test 
 
-test_run asset/asset-publisher-test \
-	com.liferay.asset.publisher.lar.test.AssetPublisherExportImportTest
+# test_run asset/asset-publisher-test \
+#	com.liferay.asset.publisher.lar.test.AssetPublisherExportImportTest
 
 test_run portal-workflow/portal-workflow-kaleo-test \
 	com.liferay.portal.workflow.kaleo.runtime.integration.internal.test.WorkflowTaskManagerImplTest
