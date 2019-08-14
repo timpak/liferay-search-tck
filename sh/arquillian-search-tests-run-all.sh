@@ -43,6 +43,11 @@ test_run asset/asset-categories-test \
 
 test_run_journal \
 	com.liferay.journal.asset.test.JournalArticleAssetSearchTest \
+	com.liferay.journal.search.test.JournalArticleIndexableTest \
+	com.liferay.journal.search.test.JournalArticleIndexerLocalizedContentTest \
+	com.liferay.journal.search.test.JournalArticleIndexerSummaryTest \
+	com.liferay.journal.search.test.JournalFolderSearchTest \
+	com.liferay.journal.search.test.JournalIndexerTest \
 	com.liferay.journal.service.test.JournalArticleExpirationTest \
 	com.liferay.journal.service.test.JournalArticleIndexVersionsTest \
 	com.liferay.journal.service.test.JournalArticleScheduledTest \
