@@ -87,9 +87,6 @@ test_run user-groups-admin/user-groups-admin-test \
 
 test_run portal-workflow/portal-workflow-kaleo-test \
 	com.liferay.portal.workflow.kaleo.runtime.integration.internal.test.WorkflowTaskManagerImplTest
-
-test_run layout/layout-test \
-	*.search.*Test
 }
 
 function run_some_tests()
